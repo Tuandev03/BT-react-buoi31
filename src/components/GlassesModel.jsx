@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import model from "./../../public/model.jpg";
 
 function GlassesModel({ data }) {
   const [selectedGlasses, setSelectedGlasses] = useState(null);
@@ -11,7 +12,7 @@ function GlassesModel({ data }) {
     <div className="  container-fluid mx-auto bg-blue-200 flex justify-center gap-10   h-lvh">
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="relative">
-          <img className="  " src="./../../public/model.jpg" alt="" />
+          <img className="" src={model} alt="" />
           {selectedGlasses && (
             <div className=" p-3">
               <img
