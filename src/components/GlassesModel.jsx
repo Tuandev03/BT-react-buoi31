@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import model from "./../../public/model.jpg";
+import model from "./../../public/model.jpg"
 
 function GlassesModel({ data }) {
   const [selectedGlasses, setSelectedGlasses] = useState(null);
@@ -33,7 +33,7 @@ function GlassesModel({ data }) {
         </div>
         <div className="mx-auto bg-white  ">
           <div className="flex items-center flex-wrap">
-            {data.map((item, index) => (
+            {data.map((item) => (
               <div
                 className="w-1/4 p-2 flex justify-center items-center"
                 key={item.id}
@@ -41,7 +41,7 @@ function GlassesModel({ data }) {
               >
                 <img
                   className="w-[70px] cursor-pointer"
-                  src={item.url}
+                  src={`./../${item.url}`}
                   alt={item.name}
                 />
               </div>
