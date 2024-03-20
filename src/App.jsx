@@ -77,8 +77,8 @@ const App = () => {
       id: 9,
       price: 60,
       name: "FENDI F4300",
-      url: "../public/g9.jpg",
-      image: "../public/v9.png",
+      url: "./g9.jpg",
+      image: "./v9.png",
 
       desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
     },

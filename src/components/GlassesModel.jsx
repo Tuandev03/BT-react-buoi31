@@ -41,7 +41,7 @@ function GlassesModel({ data }) {
               >
                 <img
                   className="w-[70px] cursor-pointer"
-                  src={`./../${item.url}`}
+                  src={`${item.url}`}
                   alt={item.name}
                 />
               </div>
